@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        NETLIFY_SITE_ID = '4e242fc6-75ed-49b5-a2d7-747ccd214b11'
+        NETLIFY_SITE_ID = '697de074-6a82-4c15-82f0-899951873a85'
         NETLIFY_AUTH_TOKEN = credentials('netlify-token')
     }
 
@@ -100,7 +100,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'https://dreamy-elf-87d26c.netlify.app'
+                CI_ENVIRONMENT_URL = 'https://unique-otter-249236.netlify.app'
             }
 
             steps {
