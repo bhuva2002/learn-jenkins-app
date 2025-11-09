@@ -105,6 +105,7 @@ pipeline {
 
             steps {
                 sh '''
+                    npx playwright install
                     npx playwright test --reporter=html
                 '''
             }
